@@ -2,11 +2,6 @@
   "name": "my-website",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-scripts": "1.0.17"
-  },
   "scripts": {
     "build": "npm run compile && npm run lint && npm test",
     "clean:all": "rimraf ./node_modules",
@@ -94,6 +89,7 @@
     "style-loader": "^0.17.0",
     "stylelint": "^7.10.1",
     "stylelint-config-sass-guidelines": "^2.1.0",
+    "terra-toolkit": "^1.2.2",
     "webpack": "^2.5.1",
     "webpack-dev-server": "^2.4.5"
   }
